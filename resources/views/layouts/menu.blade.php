@@ -1,8 +1,16 @@
+@push('scripts')
+    {{-- <script type="text/javascript">
+    $('.nav .nav-link').click(function(){
+        $('.nav .nav-link').removeClass('active');
+        $(this).addClass('active');
+    })
+    </script> --}}
+@endpush
 <nav class="d-none d-md-block bg-mid-gray-025 sidebar">
   <div class="sidebar-sticky">
     <ul class="nav flex-column">
       <li class="nav-item">
-        <a class="nav-link" href="#" style="vertical-align:center;">
+        <a class="nav-link" href="/profile" style="vertical-align:center;">
           <ion-icon name="ios-finger-print" class="mb-0"></ion-icon>
           <span class="nav-text">マイ ページ</span>
         </a>
@@ -14,19 +22,19 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="/divlog">
             <ion-icon name="bookmark" class=""></ion-icon>
             <span class="nav-text">Div ログ</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="/event">
           <ion-icon name="calendar" class=""></ion-icon>
           <span class="nav-text">イベント</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="/work">
           <ion-icon name="pulse" class=""></ion-icon>
           <span class="nav-text">ウオーク ライン</span>
         </a>
