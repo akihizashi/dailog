@@ -598,6 +598,12 @@ ion-icon {
     font-size: 24px;
     top: .125em;
 }
+.ion-general {
+    color:  rgba(89,105,129,0.5);
+}
+.ion-general:hover {
+    color:  #57729a;
+}
 /* End general format */
 
 /* Sidebar */
@@ -1172,4 +1178,18 @@ ion-icon {
 .select:disabled {
     color: #96a3b6;
     background-color: #eef1f6;
+}
+/* boostrap custom */
+.custom-file-label {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    outline: 0 !important;
+    border-radius: 4px !important;
+    padding: 0 10px !important;
+    border-style: solid !important;
+    border-width: 1px !important; 
+    font-size: 13px !important;
+    background-color: #fff !important;
+    border-color: #cfd7e6 !important;
+    box-shadow: inset 0 1px 2px 0 rgba(207,215,230,0.4) !important;
 }

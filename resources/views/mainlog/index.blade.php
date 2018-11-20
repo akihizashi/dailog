@@ -13,11 +13,11 @@
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
                 <div class="form-inline">
-                    {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10'], 'placeholder' => 'コメントをください。']) }}
-                    <div class="col-sm-2">
+                    {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                    <div class="col-sm-2 col-md-1">
                         <div class="form-inline text-right">
-                            <a href="#"><ion-icon class="mr-2" name="ios-images"></ion-icon></a>
-                            <a href=""><ion-icon name="ios-send"></ion-icon></a>
+                            <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                            <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
                         </div>
                     </div>
                 </div>
@@ -34,9 +34,17 @@
                 しかし、Homesteadを使用しない場合は、以下の要件を満たす必要があります。
             </div>
             <div class="log-footer bg-white px-3 pb-2">
-                {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
-                {{ Form::close() }}
+                    {{ Form::open() }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                    {{ Form::close() }}
             </div>
         </div>
         <div class="bg-blue br-top pt-1 mb-3 shadow-outer">
@@ -50,7 +58,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -65,7 +81,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -80,7 +104,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -95,7 +127,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -110,7 +150,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -125,7 +173,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -140,7 +196,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -155,7 +219,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -170,7 +242,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -185,7 +265,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -200,7 +288,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -215,7 +311,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
@@ -230,7 +334,15 @@
             </div>
             <div class="log-footer bg-white px-3 pb-2">
                 {{ Form::open() }}
-                    {{ Form::text('comment', old('comment', ''), ['class' => 'input', 'placeholder' => 'コメントをください。']) }}
+                    <div class="form-inline">
+                        {{ Form::text('comment', old('comment', ''), ['class' => ['input', 'col-sm-10', 'col-md-11'], 'placeholder' => 'コメントをください。']) }}
+                        <div class="col-sm-2 col-md-1">
+                            <div class="form-inline text-right">
+                                <a href="#"><ion-icon class="ion-general mr-2" name="ios-images" size="small"></ion-icon></a>
+                                <a href=""><ion-icon class="ion-general " name="ios-send" size="small"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
                 {{ Form::close() }}
             </div>
         </div>
