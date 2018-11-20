@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('content')
-    <div class="container mt-5 w-75 shadow-outer bg-lightest-silver">
+    <div class="container mt-5 w-75 shadow-inner bg-lightest-silver">
         zsdfxbnnm <br>
         czfxcgnn <br>
         cxdfghbn  <br>

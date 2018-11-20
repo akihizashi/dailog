@@ -4,8 +4,8 @@
         <span class="gray">dairy</span>
     </a>
     <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-        <li class="nav-item gray"><ion-icon name="ios-notifications" class="mx-2"></ion-icon></li>
-        <li class="nav-item gray"><ion-icon name="ios-contact"></ion-icon></li>
-        <li class="nav-item"></li>
+        <li class="nav-item gray mr-2 mt-2"><ion-icon name="ios-notifications"></ion-icon></li>
+        <li class="nav-item gray mr-2 mt-2"><ion-icon name="ios-contact"></ion-icon></li>
+        <li class="nav-item"><img class='br-100' src='http://placehold.it/40x40.png' alt='' /></li>
     </ul>
 </nav>
