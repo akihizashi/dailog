@@ -14,7 +14,7 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/home', 'HomeController@index');
+Route::get('/login', 'LoginController@index');
 Route::get('/mainlog', 'MainlogController@index');
 Route::get('/divlog', 'DivlogController@index');
 Route::get('/profile', 'UserController@index');

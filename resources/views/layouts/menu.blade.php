@@ -2,13 +2,13 @@
   <div class="sidebar-sticky">
     <ul class="nav flex-column">
         <li class="nav-item">
-          <a class="nav-link newlog" href="/profile" style="vertical-align:center;">
+          <a class="nav-link newlog" href="/profile">
             <ion-icon name="ios-chatboxes" class="mb-0"></ion-icon>
             <span class="nav-text">ニュ ログ</span>
           </a>
         </li>
       <li class="nav-item">
-        <a class="nav-link" href="/profile" style="vertical-align:center;">
+        <a class="nav-link" href="/profile">
           <ion-icon name="ios-finger-print" class="mb-0"></ion-icon>
           <span class="nav-text">マイ ページ</span>
         </a>
