@@ -18,3 +18,4 @@ Route::get('/login', 'LoginController@index');
 Route::get('/mainlog', 'MainlogController@index');
 Route::get('/divlog', 'DivlogController@index');
 Route::get('/profile', 'UserController@index');
+Route::get('/test', 'TestController@index');

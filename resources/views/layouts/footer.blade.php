@@ -8,9 +8,5 @@
         $(this).addClass('active');
     })
 </script>
-<script>
-$("#myModal").draggable({
-handle:".modal-header"
-});
-</script>
+@stack('script')
 </html>

@@ -5,7 +5,7 @@
     </a>
     <ul class="navbar-nav flex-row ml-md-auto d-md-flex">
         <li class="nav-item gray mr-2 mt-2">
-            <a href="/addlog" title="addlog">
+            <a href="#" title="addlog" data-toggle="modal" data-target="#modal-1">
                 <ion-icon name="ios-add"></ion-icon>
             </a>
         </li>
@@ -21,3 +21,4 @@
         </li>
     </ul>
 </nav>
+@include('layouts.log-modal')
