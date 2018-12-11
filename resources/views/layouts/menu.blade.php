@@ -1,7 +1,7 @@
 <nav class="d-none d-md-block bg-mid-gray-025 sidebar">
   <div class="sidebar-sticky">
     <ul class="nav flex-column">
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link newlog" href="/profile">
             <ion-icon name="ios-chatboxes" class="mb-0"></ion-icon>
             <span class="nav-text">ニュ ログ</span>

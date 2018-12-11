@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark navbar-expand-lg bg-mid-gray-10 fixed-top">
+<nav class="navbar navbar-dark navbar-expand-lg bg-light-silver fixed-top">
     <a class="navbar-brand my-1 mr-0" href="#">
         <img src="storage/images/header-logo.png" width="30%" height="30%" class="" alt="">
         <span class="gray">dairy</span>
