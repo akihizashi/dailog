@@ -8,11 +8,13 @@
   background: transparent;
   border: 0;
   border-bottom: 0;
-  box-shadow: 0 0 5px #000;
+  box-shadow: 0 0 10px #777;
   overflow: hidden;
   border: 1px solid #000;
   border: 0 solid transparent;
   overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .dockmodal.minimized {
@@ -33,21 +35,24 @@ dock-modal > dock-modal-header {
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  background: #424242 !important;
+  background: #424 !important;
   color: #fff !important;
-  min-height: 50px;
-  height: 50px;
+  min-height: 40px;
+  height: 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 dock-modal > dock-modal-header .dock-modal-icon {
-  padding: 8px;
+  padding: 6px;
   margin: 6px;
   flex-shrink: 0;
   opacity: 0.6;
   cursor: pointer;
+  font-size: 60%;
 }
 dock-modal > dock-modal-header .dock-modal-icon:hover {
   opacity: 1;
-  background: #737373;
+  /* background: #737373; */
 }
 dock-modal > dock-modal-header .dock-modal-title {
   overflow: hidden;

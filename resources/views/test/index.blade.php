@@ -2,8 +2,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Dock modal demo.</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://rawgit.com/rguruprakash/angular-dockmodal/master/dockModal/dockModal.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" href="dockmodal/dock_modal.css">
 </head>
 <body ng-controller="demoCtrl">
   
@@ -11,7 +11,7 @@
     <dock-modal>
       <dock-modal-header>
         <span class="flex"></span>
-        <i class="fa dock-modal-icon" ng-class="{'fa-window-maximize': isMinimized, 'fa-window-minimize': !isMinimized}" aria-hidden="true" ng-click="toggle()"></i>
+        <i class="fa dock-modal-icon" ng-class="{'far fa-window-maximize': isMinimized, 'far fa-window-minimize': !isMinimized}" aria-hidden="true" ng-click="toggle()"></i>
         <i class="fa fa-times dock-modal-icon" aria-hidden="true" ng-click="close()"></i>
       </dock-modal-header>
       <dock-modal-content>
